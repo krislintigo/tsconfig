@@ -6,15 +6,25 @@
   "files": [
     "tsconfig.base.json",
     "tsconfig.node.json",
+    "nuxt.d.ts",
     "nuxt.js",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "./base": "./tsconfig.base.json",
     "./base.json": "./tsconfig.base.json",
     "./node": "./tsconfig.node.json",
     "./node.json": "./tsconfig.node.json",
-    "./nuxt": "./nuxt.js",
-    "./nuxt.js": "./nuxt.js"
+    "./nuxt": {
+      "default": "./nuxt.js",
+      "types": "./nuxt.d.ts"
+    },
+    "./nuxt.js": {
+      "default": "./nuxt.js",
+      "types": "./nuxt.d.ts"
+    }
   }
 }
