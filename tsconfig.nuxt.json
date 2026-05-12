@@ -1,0 +1,30 @@
+/** Imported as JSON object **/
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // Type Checking
+    "strict": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Modules
+    "resolveJsonModule": true,
+
+    // Emit
+    "noEmit": true,
+    // "declaration": true, // do not emit any declaration for Nuxt internal types compatibility
+    // "declarationMap": true,
+    // "sourceMap": true,
+
+    // Interop Constraints
+    "erasableSyntaxOnly": true,
+    "esModuleInterop": true,
+    // "isolatedDeclarations": true,
+    "verbatimModuleSyntax": true,
+
+    // Completeness
+    "skipLibCheck": true
+  }
+}

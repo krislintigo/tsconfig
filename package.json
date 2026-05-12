@@ -1,6 +1,6 @@
 {
   "name": "@krislintigo/tsconfig",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Shared TypeScript configuration presets.",
   "type": "module",
   "files": [
@@ -18,13 +18,7 @@
     "./base.json": "./tsconfig.base.json",
     "./node": "./tsconfig.node.json",
     "./node.json": "./tsconfig.node.json",
-    "./nuxt": {
-      "default": "./nuxt.js",
-      "types": "./nuxt.d.ts"
-    },
-    "./nuxt.js": {
-      "default": "./nuxt.js",
-      "types": "./nuxt.d.ts"
-    }
+    "./nuxt": "./tsconfig.nuxt.json",
+    "./nuxt.json": "./tsconfig.nuxt.json"
   }
 }
