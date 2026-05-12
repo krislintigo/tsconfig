@@ -6,8 +6,7 @@
   "files": [
     "tsconfig.base.json",
     "tsconfig.node.json",
-    "nuxt.d.ts",
-    "nuxt.js",
+    "tsconfig.nuxt.json",
     "README.md"
   ],
   "publishConfig": {

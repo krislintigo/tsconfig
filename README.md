@@ -21,7 +21,7 @@ Shared TypeScript configuration presets.
 ## Nuxt
 
 ```ts
-import { nuxtTsConfig } from "@krislintigo/tsconfig/nuxt";
+import nuxtTsConfig from "@krislintigo/tsconfig/nuxt";
 
 export default defineNuxtConfig({
   typescript: {
